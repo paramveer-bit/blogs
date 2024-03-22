@@ -5,6 +5,7 @@ import Nav from './Component/Nav'
 import Hero from './sections/Hero'
 import Recent from './sections/Recent'
 import AllBlogs from './sections/AllBlogs'
+import SmallTemp from './Component/SmallTemp'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <Hero />
       <Recent />
       <AllBlogs />
+      <SmallTemp />
     </main>
   )
 }
