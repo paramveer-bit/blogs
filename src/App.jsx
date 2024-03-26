@@ -1,22 +1,17 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import Nav from './Component/Nav'
-import Hero from './sections/Hero'
-import Recent from './sections/Recent'
-import AllBlogs from './sections/AllBlogs'
-import SmallTemp from './Component/SmallTemp'
+import Home from './Pages/Home'
+import Projects from './Pages/Project/Projects'
 
 function App() {
 
   return (
-    <main className=' bg-[#151515] px-20'>
-      <Nav />
-      <Hero />
-      <Recent />
-      <AllBlogs />
-      <SmallTemp />
-    </main>
+    <>
+      {/* <Home /> */}
+      <Projects />
+      
+    </>
   )
 }
 
